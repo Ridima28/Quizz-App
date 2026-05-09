@@ -108,7 +108,19 @@ h2 {
 
 /* Score display styling */
 .score {
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: center;
   margin: 20px 0;
+}
+
+.score-and-question{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.total-question{
+  display:flex;
+  justify-content: right;
+  margin-top: -10px;
 }
